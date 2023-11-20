@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  cursor: pointer;
+  margin: 10px;
+  padding: 7px;
+  width: 100px;
+  align-self: center;
+}
+
+.form-control {
+  margin-bottom: 6px;
+}
+
+.error {
+  color: red;
+  font-size: 16px;
+  font-weight: 700;
+}
